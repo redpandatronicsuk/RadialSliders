@@ -1,0 +1,138 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+// bower:scss
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+
+  /* Make the masthead heading the same height as the navigation */
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    padding-bottom: 19px;
+  }
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+
+  .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+  }
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+
+  p + h4 {
+    margin-top: 28px;
+  }
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+
+/* My Stuff */
+body {
+  background-image:url('../images/backgroundpattern2.png');
+  background-position:top left;
+  background-repeat:repeat;
+  background-attachment:fixed;
+  font-size: 16pt;
+  }
+
+  .rptLogoRound {
+    border-radius: 25%;
+  }
+
+  .hovery {
+    padding: 10px;
+    text-shadow: 0px 1px 0px #FFF;
+    border-radius: 10px;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3), 0px -1px 0px rgba(255, 255, 255, 0.8), 0px 4px 10px rgba(0, 0, 0, 0.6);
+    background: rgba(255,255,255,0.1);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    text-align: center;
+  }
+
+  .innerHovery {
+    position: relative;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.25);
+    box-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4), 0px 2px 5px rgba(0, 0, 0, 0.4) inset, 0px 1px 0px #FFF;
+    overflow-x: scroll;
+  }
+
+
+  /* Flower Slider Specific Stuff */
+  #slidersAvg {
+    opacity: 0;
+    transition: .5s;
+  }
+  #slidersAvg:hover  {
+    opacity: 1;
+    transition: .5s;
+  }
